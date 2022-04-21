@@ -78,6 +78,7 @@ public class TinkerPartSpriteProvider extends AbstractPartSpriteProvider {
     // sword
     buildTool("dagger").addBreakableHead("blade").addHandle("crossguard");
     buildTool("sword").addBreakableHead("blade").addHandle("guard").addHandle("handle");
+    buildTool("katana").addBreakableHead("blade").addHandle("guard").addHandle("handle");
     buildTool("cleaver").withLarge().addBreakableHead("head").addBreakableHead("shield").addHandle("handle").addHandle("guard");
   }
 }

@@ -14,6 +14,7 @@
     "tconstruct:sword",
     "tconstruct:cleaver",
     "tconstruct:flint_and_brick",
-    "#tconstruct:modifiable/armor/boots"
+    "#tconstruct:modifiable/armor/boots",
+    "tconstruct:katana"
   ]
 }

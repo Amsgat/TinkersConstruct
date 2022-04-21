@@ -116,6 +116,7 @@ public final class TinkerTools extends TinkerModule {
   public static final ItemObject<ModifiableItem> dagger = ITEMS.register("dagger", () -> new ModifiableSwordItem(TOOL, ToolDefinitions.DAGGER));
   public static final ItemObject<ModifiableItem> sword = ITEMS.register("sword", () -> new ModifiableSwordItem(TOOL, ToolDefinitions.SWORD));
   public static final ItemObject<ModifiableItem> cleaver = ITEMS.register("cleaver", () -> new ModifiableSwordItem(TOOL, ToolDefinitions.CLEAVER));
+  public static final ItemObject<ModifiableItem> katana = ITEMS.register("sword", () -> new ModifiableSwordItem(TOOL, ToolDefinitions.KATANA));
 
   public static final ItemObject<ModifiableItem> flintAndBrick = ITEMS.register("flint_and_brick", () -> new ModifiableItem(TOOL, ToolDefinitions.FLINT_AND_BRICK));
 

@@ -1,0 +1,19 @@
+{
+    "loader": "tconstruct:tool",
+    "parent": "forge:item/default-tool",
+    "textures": {
+      "head":        "tconstruct:item/tool/sword/topblade",
+      "bottom":        "tconstruct:item/tool/sword/bottomblade",
+      "broken_head": "tconstruct:item/tool/sword/topblade_broken",
+      "handle":      "tconstruct:item/tool/sword/handle",
+      "guard":       "tconstruct:item/tool/sword/binding"
+    },
+    "modifier_roots": [ "tconstruct:item/tool/sword/modifiers/" ],
+    "parts": [
+      { "name": "handle",  "index": 1 },
+      { "name": "head",    "index": 0, "broken": "broken_head" },
+      { "name": "bottom",  "index": 3 },
+      { "name": "guard",   "index": 2 }
+    ]
+  }
+  

@@ -147,6 +147,7 @@ public class ToolClientEvents extends ClientEventBase {
     registerItemColors(colors, TinkerTools.dagger);
     registerItemColors(colors, TinkerTools.sword);
     registerItemColors(colors, TinkerTools.cleaver);
+    registerItemColors(colors, TinkerTools.katana);
   }
 
   // values to check if a key was being pressed last tick, safe as a static value as we only care about a single player client side

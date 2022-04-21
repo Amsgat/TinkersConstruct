@@ -323,6 +323,24 @@ public class ToolDefinitionDataProvider extends AbstractToolDefinitionDataProvid
       .harvestLogic(swordLogic)
       .attack(new SweepWeaponAttack(1));
 
+      define(ToolDefinitions.KATANA)
+      // parts
+      .part(toolHandle)
+      .part(toolHandle)
+      .part(toolHandle)
+      // stats
+      .stat(ToolStats.ATTACK_DAMAGE, 2f)
+      .stat(ToolStats.ATTACK_SPEED, 2.5f)
+      .multiplier(ToolStats.MINING_SPEED, 0.5f)
+      .multiplier(ToolStats.DURABILITY, 1.1f)
+      .smallToolStartingSlots()
+      // traits
+      .trait(TinkerModifiers.silkyShears)
+      .action(ToolActions.SWORD_DIG)
+      // behavior
+      .harvestLogic(swordLogic)
+      .attack(new SweepWeaponAttack(1));
+
     define(ToolDefinitions.CLEAVER)
       // parts
       .part(broadBlade)

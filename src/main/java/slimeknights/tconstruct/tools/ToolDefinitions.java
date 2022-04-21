@@ -27,6 +27,7 @@ public final class ToolDefinitions {
   public static final ToolDefinition DAGGER = ToolDefinition.builder(TinkerTools.dagger).meleeHarvest().build();
   public static final ToolDefinition SWORD = ToolDefinition.builder(TinkerTools.sword).meleeHarvest().build();
   public static final ToolDefinition CLEAVER = ToolDefinition.builder(TinkerTools.cleaver).meleeHarvest().build();
+  public static final ToolDefinition KATANA = ToolDefinition.builder(TinkerTools.katana).meleeHarvest().build();
 
   // special
   public static final ToolDefinition FLINT_AND_BRICK = ToolDefinition.builder(TinkerTools.flintAndBrick).noParts().build();
